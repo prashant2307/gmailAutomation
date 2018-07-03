@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16281" started-at="2018-07-03T04:15:11Z" finished-at="2018-07-03T04:15:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16281" started-at="2018-07-03T04:15:11Z" finished-at="2018-07-03T04:15:27Z">
+      <class name="gmailautomation.gmailTests">
+        <test-method status="PASS" signature="LaunchSignInPage()[pri:0, instance:gmailautomation.gmailTests@4b9e13df]" name="LaunchSignInPage" is-config="true" duration-ms="6486" started-at="2018-07-03T04:15:11Z" finished-at="2018-07-03T04:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchSignInPage -->
+        <test-method status="PASS" signature="loginGmail()[pri:0, instance:gmailautomation.gmailTests@4b9e13df]" name="loginGmail" duration-ms="1484" started-at="2018-07-03T04:15:17Z" finished-at="2018-07-03T04:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGmail -->
+        <test-method status="PASS" signature="unreadMails()[pri:1, instance:gmailautomation.gmailTests@4b9e13df]" name="unreadMails" duration-ms="7945" started-at="2018-07-03T04:15:19Z" finished-at="2018-07-03T04:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unreadMails -->
+        <test-method status="PASS" signature="readFirstUnreadMail()[pri:2, instance:gmailautomation.gmailTests@4b9e13df]" name="readFirstUnreadMail" duration-ms="339" started-at="2018-07-03T04:15:27Z" finished-at="2018-07-03T04:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readFirstUnreadMail -->
+        <test-method status="PASS" signature="close()[pri:0, instance:gmailautomation.gmailTests@4b9e13df]" name="close" is-config="true" duration-ms="0" started-at="2018-07-03T04:15:27Z" finished-at="2018-07-03T04:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- gmailautomation.gmailTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
